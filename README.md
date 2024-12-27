@@ -15,7 +15,7 @@ Our planet contains 1,386 million km³ of water, a quantity that has remained un
 
 ### Requirements
 - Python 3.8+
-- Libraries: `scikit-learn`, `pandas`, `numpy`
+- Libraries: `scikit-learn`, `pandas`, `numpy`, `matplotlib`, `seaborn`
 
 ### Installation
 1. Clone the repository:
