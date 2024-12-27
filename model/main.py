@@ -9,7 +9,7 @@ from partitions_validation import partitionsValidation
 def main():
     
     # Importar Datos Osmosis Inversa
-    data = pd.read_csv("data/reverse_osmosis_data.csv")
+    data = pd.read_csv("model/data/reverse_osmosis_data.csv")
 
     # Variables Predictoras
     X = data[["Feed Pressure (Pa)", "Permeate Flow (L/h)", "Concentrate Flow (L/h)" , "Differential Pressure (bar)",

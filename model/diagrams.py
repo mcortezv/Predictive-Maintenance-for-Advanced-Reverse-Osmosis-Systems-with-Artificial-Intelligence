@@ -54,9 +54,9 @@ def main():
 def modelMembraneCondition(X_train_res, Y_train_membrane_res, X_val_s, X_test_s, Y_val_membrane, Y_test_membrane):
     # Parametros Modelo Clasificación (Random Forest Classifier)
     parameters = {
-        'n_estimators': [50, 100, 200],
-        'max_depth': [None, 10, 20, 30],
-        'min_samples_split': [2, 5, 10]
+        "n_estimators": [50, 100, 200],
+        "max_depth": [None, 10, 20, 30],
+        "min_samples_split": [2, 5, 10]
     }
     parameters_search = GridSearchCV(RandomForestClassifier(random_state = 42), parameters, cv = 5, scoring = "f1_macro")
     parameters_search.fit(X_train_res, Y_train_membrane_res)
