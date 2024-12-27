@@ -38,4 +38,4 @@ Our planet contains 1,386 million km³ of water, a quantity that has remained un
 Please review the [CONTRIBUTING](./CONTRIBUTING.md) file for more details.
 
 ### License
-This project is licensed under the [MIT License](./LICENSE).
+This project is licensed under the [MIT License](./LICENSE.md).
