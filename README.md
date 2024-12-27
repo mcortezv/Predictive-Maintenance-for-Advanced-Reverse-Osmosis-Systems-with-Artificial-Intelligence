@@ -20,7 +20,7 @@ Our planet contains 1,386 million km³ of water, a quantity that has remained un
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/mcortezv
+   git clone https://github.com/mcortezv/Predictive-Maintenance-for-Advanced-Reverse-Osmosis-Systems-with-Artificial-Intelligence
    ```
 2. Install dependencies:
    ```bash
